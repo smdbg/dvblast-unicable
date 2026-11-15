@@ -1,0 +1,9 @@
+/unicable-tune
+/dvb-scan
+/lock-adapter7
+__pycache__/
+*.pyc
+*.o
+*.log
+*.ts
+.env

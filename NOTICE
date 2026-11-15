@@ -1,0 +1,21 @@
+DVBlast Unicable
+
+GPL-2.0-only. See LICENSE.
+
+The helper and scanner were originally developed in the tools/unicable directory
+of smdbg's headend project. This standalone distribution retains the tuning and
+scanning C source behavior. unicable-tune is the generic executable name;
+lock-adapter7 is provided as a compatibility symlink.
+
+The EN50494 frequency calculation follows the approach in VDR's
+cDiseqc::SetScrFrequency(), with reference implementation by Klaus Schmidinger
+and the VDR contributors:
+https://github.com/vdr-projects/vdr/blob/master/diseqc.c
+
+DVBlast is a separate VideoLAN project. It is not bundled or linked into these
+tools, and this project is not an official DVBlast release.
+https://www.videolan.org/projects/dvblast.html
+
+The Linux DVB userspace API and TBS STiD135 driver source were used as references.
+Primary links are in docs/DETAILS.md. No private configuration, credentials,
+channel recordings, DVB driver or firmware files are included.
